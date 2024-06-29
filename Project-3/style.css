@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'gill sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    position: fixed;
+    background-color: white;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    color: rgb(6, 6, 104);
+}
+.text:hover{
+    color: rgb(5, 5, 232);
+}
+#contact{
+    text-align: center;
+    color: rgb(29, 29, 130);
+}
+#contact:hover{
+    color: rgb(1, 1, 217);
+}
+#icon{
+    display: flex;    
+}
+.icons{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons:hover{
+    background-color: rgb(220, 248, 239);
+}
+#login{
+    display: flex;
+    padding: 3px;
+    border-radius: 10%;
+}
+#login:hover{
+    background-color:rgb(220, 248, 239);
+}
+#try{
+    margin: 20px 10px;
+    background-color: rgb(5, 187, 5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+#try:hover{
+    background-color: darkgreen;
+}
+#fakeheader{
+    background-color: white;
+    width: 100%;
+    height: 13%;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+}
+#strip{
+    font-family:'Times New Roman';
+    color: white;
+    background-color:rgb(2, 2, 109);
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    height: 74%;
+    width: 100%;
+    display: flex;
+    background-image: -webkit-image-set('https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640');
+}
+
+.box{
+    height: 95%;
+    width: 48%;
+    margin: 20px;
+}
+
+#content h1{
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+#content p{
+    margin: 40px 20px;
+    font-size: 20px;
+}
+#buton{
+    height: 20%;
+    width: 90%;
+    margin: 20px;
+    display: flex;
+}
+
+#but1{
+    background-color: rgb(54, 70, 244);
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#but1:hover{
+    background-color: darkblue;
+}
+
+#but2{
+    margin: 20px 20px;
+    height: 40px;
+    width: 140px;
+    border: 3px solid rgb(88, 125, 246);
+    border-radius: 3px;
+    color: rgb(88, 125, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#but2:hover{
+    background-color: rgb(5, 22, 107);
+    color: white;
+    border: 3px solid rgb(5, 22, 107);
+}
+
+#made{
+    margin: 20px;
+    border: 3px solid rgb(54, 70, 244);
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(54, 70, 244);
+    font-size: larger;
+}
+
+#made:hover{
+    border: 3px solid darkblue;
+    background-color: darkblue;
+    color: white;
+}
+
+.box img{
+    height: 80%;
+    width: 90%;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#heading{
+    height: 16%;
+    width: 100%;
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: x-large;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-image: -webkit-image-set('https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625');
+}
+#card{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.tab{
+    margin: 20px;
+    border: 1px solid rgba(70, 67, 67, 0.956);
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+#pho1 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#tex1{
+    height: 50%;
+    width: 90%;
+    margin: 40px 20px;
+}
+#tex1 p{
+    margin: 20px 0px 30px 0px;
+}
+#tex1 b{
+    color: darkblue;
+    font-size: large;
+}
+
+#pho2 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#tex2{
+    height: 50%;
+    width: 90%;
+    margin: 40px 20px;
+}
+#tex2 p{
+    margin: 20px 0px 30px 0px;
+}
+#tex2 b{
+    color: darkblue;
+    font-size: large;
+}
+
+#pho3 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#tex3{
+    height: 50%;
+    width: 90%;
+    margin: 40px 20px;
+}
+#tex3 p{
+    margin: 20px 0px 30px 0px;
+}
+#tex3 b{
+    color: darkblue;
+    font-size: large;
+}
+
+#pho4 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#tex4{
+    height: 50%;
+    width: 90%;
+    margin: 40px 20px;
+}
+#tex4 p{
+    margin: 20px 0px 30px 0px;
+}
+#tex4 b{
+    color: darkblue;
+    font-size: large;
+}
+#last{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+}
+#all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid rgb(101, 142, 254);
+    color: rgb(101, 142, 254);
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+}
+#all:hover{
+    background-color: lightblue;
+    color: darkblue;
+    border: 2px solid darkblue;
+}
